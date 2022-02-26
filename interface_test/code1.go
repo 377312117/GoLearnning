@@ -5,7 +5,7 @@ type Animal interface {
 	Swim() string
 	Run() string
 	Name() string
-} 
+}
 
 type Dog struct {
 }
@@ -44,8 +44,3 @@ func (f Fish) Fly() string {
 func (f Fish) Name() string {
 	return "fish"
 }
-
-
-
-
-
