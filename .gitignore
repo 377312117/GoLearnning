@@ -1,6 +1,7 @@
-protoc/
-.vscode/
+/protoc
+/.vscode
 *.xml
 *.html
 *.json
+/.idea
 
