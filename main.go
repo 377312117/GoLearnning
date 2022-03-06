@@ -2,14 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/m/v1/zzx/gocode/interface_test"
+	test "github.com/m/v1/zzx/gocode/concurrent_learnning"
 )
 
-func test(an interfacetest.Animal) {
-	fmt.Printf("animals:%s, %s", an.Name(), an.Fly())
-}
-
 func main() {
-	fish1 := interfacetest.Fish{}
-	test(fish1)
+	fmt.Println("Process starting...")
+	test.Code4()
 }
